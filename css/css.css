@@ -7,6 +7,7 @@ h2{
     color:  #581845 ;
 }
 .button {
+    margin-right: 69px;
     text-align: center;
     display: inline-block;
     padding: 10px 20px;
@@ -28,7 +29,9 @@ h2{
 }
 .table{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex;
+  margin-left: 55px;
+ 
 }
 .module{
   background-color: white;
@@ -45,7 +48,7 @@ h2{
 }
 .date,.hour,#lien{
   margin-left: 25px;
-  margin-right: 250px;
+  margin-right: 350px;
   margin-top: 20px;
   font-family: 'Pangolin', cursive;
 }
@@ -55,7 +58,7 @@ a{
 }
 .subject{
   margin-top: 5px;
-  margin-left: 55px;
+  margin-left: 75px;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
 }
@@ -87,7 +90,7 @@ p{
 .material-icons {
     position: relative;
     top: 20px;
-    left: 40px;
+    left: 70px;
   }
   
   
