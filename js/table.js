@@ -7,6 +7,7 @@ function toggleTable(tableId) {
    }
   }
 
+
   var iconeElements = document.getElementsByClassName("material-icons");
 
 function toggleIcone(e) {
