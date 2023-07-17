@@ -7,8 +7,27 @@ function toggleTable(tableId) {
    }
   }
 
+  
 
-  var iconeElements = document.getElementsByClassName("material-icons");
+  
+  function affiche() {
+    var monDiv = document.getElementById('monDiv');
+    if (monDiv.style.display === 'none' || monDiv.style.display === '') {
+      monDiv.style.display = 'block';
+    } else {
+      monDiv.style.display = 'none';
+    }
+  }
+
+
+
+
+
+
+
+
+
+var iconeElements = document.getElementsByClassName("material-icons");
 
 function toggleIcone(e) {
   e.preventDefault();
